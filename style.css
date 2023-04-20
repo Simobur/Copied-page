@@ -1,0 +1,167 @@
+/* Colors:
+
+FONTS: #343a40
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+
+  color: #212529;
+  background-color: #e9ecef;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+.artist {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.btn-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-nav a:link,
+.btn-nav a:visited {
+  text-decoration: none;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.artist-description h1 {
+  font-size: 48px;
+  width: 75%;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+.artist-description p {
+  width: 75%;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+.email {
+  padding: 12px;
+}
+
+.btn-email {
+  padding: 12px 14px;
+  border: 2px solid black;
+}
+.artist-img {
+  object-fit: cover;
+  scale: 1;
+  width: 100%;
+  max-width: 600px;
+}
+
+.artist-child {
+  color: #fff;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 5% 20%;
+  margin-bottom: 70px;
+}
+.artist-child h2 {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.7;
+  margin-bottom: 45px;
+}
+
+.artist-child a {
+  text-decoration: none;
+  color: rgba(192, 99, 99, 0.651);
+  border: 2px solid rgba(192, 99, 99, 0.651);
+  padding: 1.5% 10%;
+}
+
+a:hover {
+  color: black;
+  background-color: rgba(192, 99, 99, 0.651);
+}
+
+.tours {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  height: 600px;
+  margin-bottom: 50px;
+  gap: 100px;
+}
+.purchase {
+  flex: 1;
+}
+
+.purchase h3 {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.purchase p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 70px;
+}
+
+.purchase a {
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 3% 12%;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: black;
+}
+
+.purchase a:hover {
+  background-color: black;
+  color: #fff;
+}
+.visits {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 170px);
+  height: 50px;
+}
+
+.visits h4 {
+  font-size: 36px;
+}
+.visits p {
+  margin-top: 22px;
+}
+
+.contact {
+  width: 80%;
+  margin: 0 auto;
+  height: 300px;
+}
+
+.contact-img {
+  width: 120%;
+  transform: translate(-20%, 0%);
+}
